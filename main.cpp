@@ -1,0 +1,10 @@
+#include "TheSinger.h"
+#include <QtWidgets/QApplication>
+#include <httplib/httplib.h>
+int main(int argc, char *argv[])
+{
+    QApplication a(argc, argv);
+    TheSinger w;
+    w.show();
+    return a.exec();
+}
