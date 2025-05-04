@@ -14,3 +14,9 @@ struct MusicInfo {
     string source;  // 来源平台
 };
 
+vector<string_view> GetAPI() {
+    vector<string_view> API;
+    ondemand::parser parser;
+    padded_string json = padded_string::load("./API/API.json");
+    return API;
+}
