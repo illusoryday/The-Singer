@@ -10,6 +10,7 @@
       "KuGouMusic" : "http://www.kugou.com/yy/html/search.html?keyword=$keyword$"
     },
     {
-      "KuwoMusic":"http://www.kuwo.cn/search/list?key=$keyword$"
-    }]
+      "KuwoMusic": "http://www.kuwo.cn/search/list?key=$keyword$"
+    }
+  ]
 }

@@ -120,6 +120,7 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\API\API.h" />
     <ClInclude Include="include\cpp-httplib\httplib.h" />
     <ClInclude Include="include\Search\Search.h" />
     <ClInclude Include="include\simdjson\simdjson.h" />
