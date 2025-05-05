@@ -73,11 +73,6 @@ desktop.ini
 # 项目特定排除
 tree_generator.exe
 tree.txt
-*.recipe
-*.vsidx
-*.vcxproj.user
-*.vcxproj.filters
-*.vcxproj
 
 # 其他忽略项
 *.zip
