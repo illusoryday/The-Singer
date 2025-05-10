@@ -9,11 +9,11 @@ struct APIInfo {
     string url;   // APIµÿ÷∑
 };
 
-vector<APIInfo> GetAPI() {
+vector<APIInfo> GetAPI(string path) {
     vector<APIInfo> APIList;
     dom::parser parser;
     try {
-        padded_string json = padded_string::load("include/API/API.json");
+        padded_string json = padded_string::load(path);
         dom::element data = parser.parse(json);
 
         simdjson::dom::array apis = data["APIs"].get_array();

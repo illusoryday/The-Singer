@@ -1,0 +1,16 @@
+{
+  "APIs":[
+    {
+      "CloudMusic" : "http://music.163.com/api/search/get/web?type=1&limit=10&s=${keyword}"
+    },
+    {
+      "QQMusic" : "http://y.qq.com/portal/search.html?searchid=0&key=${keyword}"
+    },
+    {
+      "KuGouMusic" : "http://www.kugou.com/yy/html/search.html?keyword=${keyword}"
+    },
+    {
+      "KuwoMusic": "http://www.kuwo.cn/search/list?key=${keyword}"
+    }
+  ]
+}

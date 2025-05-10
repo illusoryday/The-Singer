@@ -77,7 +77,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
-      <AdditionalIncludeDirectories>$(ProjectDir)include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)lib\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>$(ProjectDir)lib</AdditionalLibraryDirectories>
@@ -115,18 +115,20 @@
   <ItemGroup>
     <QtRcc Include="TheSinger.qrc" />
     <QtUic Include="TheSinger.ui" />
-    <QtMoc Include="TheSinger.h" />
     <ClCompile Include="TheSinger.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\API\API.h" />
-    <ClInclude Include="include\cpp-httplib\httplib.h" />
-    <ClInclude Include="include\Search\Search.h" />
-    <ClInclude Include="include\simdjson\simdjson.h" />
+    <ClInclude Include="lib\include\httplib\httplib.h" />
+    <ClInclude Include="lib\include\SearchMusics\API.h" />
+    <ClInclude Include="lib\include\SearchMusics\Search.h" />
+    <ClInclude Include="lib\include\simdjson\simdjson.h" />
+    <QtMoc Include="TheSinger.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="include\API\API.json" />
+    <None Include="LICENSE" />
+    <None Include="README.md" />
+    <None Include="The Singer\API.json" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

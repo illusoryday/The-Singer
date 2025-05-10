@@ -29,9 +29,6 @@
     <QtUic Include="TheSinger.ui">
       <Filter>Form Files</Filter>
     </QtUic>
-    <QtMoc Include="TheSinger.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
     <ClCompile Include="TheSinger.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -42,17 +39,27 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\cpp-httplib\httplib.h">
+    <ClInclude Include="lib\include\httplib\httplib.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\Search\Search.h">
+    <ClInclude Include="lib\include\SearchMusics\API.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\simdjson\simdjson.h">
+    <ClInclude Include="lib\include\SearchMusics\Search.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\simdjson\simdjson.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="include\API\API.json" />
+    <None Include="The Singer\API.json" />
+    <None Include="README.md" />
+    <None Include="LICENSE" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="TheSinger.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
   </ItemGroup>
 </Project>

@@ -1,8 +1,8 @@
 #include "TheSinger.h"
 #include <QtWidgets/QApplication>
 #include <httplib/httplib.h>
-#include <search/search.h>
-#include <API/API.h>
+#include <SearchMusics/search.h>
+#include <SearchMusics/API.h>
 using namespace std;
 int main(int argc, char *argv[])
 {
