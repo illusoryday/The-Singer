@@ -41,9 +41,6 @@ Makefile*
 *.qm
 
 # 编译生成物
-*.dll
-*.lib
-*.exp
 *.manifest
 *.app
 *.appx
