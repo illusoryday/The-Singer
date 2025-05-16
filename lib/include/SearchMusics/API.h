@@ -5,7 +5,7 @@ using namespace simdjson;
 
 
 struct APIInfo {
-    string name;  // APIÃû³Æ
+    string name   // APIÃû³Æ
           ,url;   // APIµØÖ·
 };
 

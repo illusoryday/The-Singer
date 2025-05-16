@@ -68,8 +68,18 @@
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
-    <Image Include=".thesinger\The Singer.ico">
+    <Image Include="icon1.ico">
       <Filter>Resource Files</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include=".thesinger\The Singer.ico">
+      <Filter>Resource Files</Filter>
+    </Resource>
   </ItemGroup>
 </Project>
