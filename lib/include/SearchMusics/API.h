@@ -6,7 +6,7 @@ using namespace simdjson;
 
 struct APIInfo {
     string name;  // API名称
-    string url;   // API地址
+          ,url;   // API地址
 };
 
 vector<APIInfo> GetAPI(string path) {
@@ -16,7 +16,7 @@ vector<APIInfo> GetAPI(string path) {
         padded_string json = padded_string::load(path);
         dom::element data = parser.parse(json);
 
-        simdjson::dom::array apis = data["APIs"].get_array();
+        simdjson::dom::array apis = data["Music"].get_array();
         // 4. 遍历每个 API 对象
         for (auto api : apis) {
             simdjson::dom::object api_obj = api.get_object();

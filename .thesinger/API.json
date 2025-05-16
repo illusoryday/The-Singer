@@ -1,0 +1,62 @@
+{
+    "Mmusic": [
+        {
+            "CloudMusic": "http://music.163.com/api/search/get/web?type=1&limit=10&s=${keyword}"
+        },
+        {
+            "QQMusic": "http://y.qq.com/portal/search.html?searchid=0&key=${keyword}"
+        },
+        {
+            "KuGouMusic": "http://www.kugou.com/yy/html/search.html?keyword=${keyword}"
+        },
+        {
+            "KuwoMusic": "http://www.kuwo.cn/search/list?key=${keyword}"
+        },
+        {
+            "MiguMusic": "https://music.migu.cn/v3/search?keyword=${keyword}"
+        },
+        {
+            "BaiduMusic": "http://music.taihe.com/search?key=${keyword}"
+        }
+    ],
+    "MV": [
+        {
+            "CloudMusic": "https://music.163.com/#/search/m/?type=1004&s=${keyword}"
+        },
+        {
+            "QQMusic": "https://y.qq.com/n/ryqq/mv/${keyword}"
+        },
+        {
+            "KuGouMusic": "https://www.kugou.com/mvweb/html/search.html?keyword=${keyword}"
+        },
+        {
+            "KuwoMusic": "http://www.kuwo.cn/search/mv?key=${keyword}"
+        },
+        {
+            "YouTube": "https://www.youtube.com/results?search_query=${keyword}"
+        },
+        {
+            "Bilibili": "https://search.bilibili.com/all?keyword=${keyword}"
+        }
+    ],
+    "Lyric": [
+        {
+            "CloudMusic": "https://music.163.com/api/song/lyric?os=pc&id=${id}&lv=-1&kv=-1&tv=-1"
+        },
+        {
+            "QQMusic": "https://c.y.qq.com/lyric/fcgi-bin/fcg_search_lyric.fcg?nobase64=1&songmid=${songmid}"
+        },
+        {
+            "KuGouMusic": "http://lyrics.kugou.com/search?ver=1&man=yes&client=pc&keyword=${keyword}&duration=${duration}&hash=${hash}"
+        },
+        {
+            "KuwoMusic": "http://m.kuwo.cn/newh5/singles/songinfoandlrc?musicId=${musicId}"
+        },
+        {
+            "MiguMusic": "https://music.migu.cn/v3/api/music/lyric/getLyric?copyrightId=${copyrightId}"
+        },
+        {
+            "BaiduMusic": "http://musicapi.taihe.com/v1/restserver/ting?method=baidu.ting.song.lry&songid=${songid}"
+        }
+    ]
+}

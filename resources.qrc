@@ -1,0 +1,5 @@
+﻿<RCC>
+    <qresource prefix="/">
+        <file>.thesinger/The Singer.ico</file>
+    </qresource>
+</RCC>
