@@ -32,6 +32,9 @@
     <ClCompile Include="TheSinger.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <QtRcc Include="resources.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -53,13 +56,20 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="The Singer\API.json" />
     <None Include="README.md" />
     <None Include="LICENSE" />
+    <None Include=".thesinger\API.json">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="TheSinger.h">
       <Filter>Header Files</Filter>
     </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include=".thesinger\The Singer.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>

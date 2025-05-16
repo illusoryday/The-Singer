@@ -21,3 +21,20 @@
 - 二.因使用本软件造成的直接或间接损失
 - 三.各音乐平台服务条款变更带来的影响
 建议用户在遵守《中华人民共和国著作权法》及相关国际版权公约的前提下合理使用本软件。
+**第三方库声明**
+
+本项目使用了以下开源库：
+
+- **Qt** ([官网](https://www.qt.io/))  
+  🄯 GNU LGPLv3
+  © The Qt Company
+
+- **simdjson** ([GitHub](https://github.com/simdjson/simdjson))  
+  🄯 Apache License 2.0  
+  © Daniel Lemire
+
+- **httplib** ([GitHub](https://github.com/yhirose/cpp-httplib))  
+  🄯 MIT License  
+  © yhirose
+
+**请确保遵守各库的许可证要求，具体条款请参考各项目官方文档。**
